@@ -1,0 +1,75 @@
+[
+  {
+    "selector": ":root",
+    "line": 3,
+    "context": null,
+    "declarations": [
+      {
+        "property": "--theme-color",
+        "value": "#2563eb",
+        "important": false
+      },
+      {
+        "property": "--spacing",
+        "value": "16px",
+        "important": false
+      }
+    ]
+  },
+  {
+    "selector": ".card, .panel",
+    "line": 8,
+    "context": null,
+    "declarations": [
+      {
+        "property": "color",
+        "value": "blue",
+        "important": false
+      },
+      {
+        "property": "padding",
+        "value": "var(--spacing)",
+        "important": false
+      },
+      {
+        "property": "border-radius",
+        "value": "8px",
+        "important": false
+      }
+    ]
+  },
+  {
+    "selector": "#header",
+    "line": 14,
+    "context": null,
+    "declarations": [
+      {
+        "property": "background-color",
+        "value": "white",
+        "important": false
+      },
+      {
+        "property": "margin",
+        "value": "0",
+        "important": false
+      }
+    ]
+  },
+  {
+    "selector": ".card",
+    "line": 20,
+    "context": "@media (max-width: 768px)",
+    "declarations": [
+      {
+        "property": "padding",
+        "value": "8px",
+        "important": false
+      },
+      {
+        "property": "color",
+        "value": "navy",
+        "important": false
+      }
+    ]
+  }
+]

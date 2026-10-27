@@ -1,0 +1,24 @@
+/* Sample stylesheet for ParserWrite */
+
+:root {
+    --theme-color: #2563eb;
+    --spacing: 16px;
+}
+
+.card, .panel {
+    color: blue;
+    padding: var(--spacing);
+    border-radius: 8px;
+}
+
+#header {
+    background-color: white;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .card {
+        padding: 8px;
+        color: navy;
+    }
+}

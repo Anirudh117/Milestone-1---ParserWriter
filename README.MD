@@ -1,0 +1,2 @@
+ParserWrite - Design Explanation
+I extracted CSS selectors, declaration properties, values, source line numbers, and nested grouping-rule context to convert raw CSS into structured JSON that can be queried programmatically. I chose these fields because they preserve the essential styling information without requiring a browser to render the page. I used tinycss2 to handle CSS syntax reliably instead of relying on fragile regular expressions. One edge case I considered was nested @media rules, which require recursive parsing so that their declarations are not missed.
